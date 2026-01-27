@@ -1,0 +1,21 @@
+# Supabase secrets and local config
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Supabase local database data
+# (This prevents your local DB state from being uploaded)
+supabase/.temp/
+supabase/.branches/
+supabase/.storage/
+supabase/functions/.env
+
+# Logs
+supabase/logs/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
