@@ -1,0 +1,2 @@
+--ALTER FUNCTION nome_tuo_schema.nome_tua_funzione 
+--SET search_path TO nome_schema_tabelle, public;
